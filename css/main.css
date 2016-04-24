@@ -1,0 +1,131 @@
+/* GLOBAL */
+html{
+    
+}
+
+body{
+    font-family: serif;
+    background-color: rgb(248, 248, 248);
+}
+
+img{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+h3{
+    font-size: 1.5rem;
+    color: #666666;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+}
+
+hr{
+    margin-top: 0;
+    margin-bottom: 0.1rem;
+}
+
+/* top bar */
+
+.top-bar{
+    width: 100%;
+    position: fixed;
+}
+
+.top-bar, .top-bar-left, .top-bar li{
+    background-color: #FFFFFF;
+}
+
+/* divider */
+
+.divider{
+    height: 2.5rem;
+}
+
+/* HOME PAGE */
+#home-page{
+    height: 90vh;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+#home-page .canvas{}
+
+/* SIDE BAR */
+#sidebar{}
+
+#sidebar .people{
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+#sidebar .people h5{
+    color: #666666;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+#sidebar .people p{
+    color: #000000;
+    font-size: 1rem;
+}
+
+#sidebar ul{
+    list-style: none;
+    margin-left: 0;
+}
+
+#sidebar li{
+    color: #666666;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+#sidebar a{
+    color: #666666;
+}
+
+/* content */
+#content{}
+
+#content .postItems{
+    margin-top: 1rem;
+    padding-left: 0;
+}
+
+.photoBox{
+    padding-left: 0;
+}
+
+.contentBox{
+    padding-left: 0;
+}
+
+#content .postItems h5{
+    color: #666666;
+    font-size: 0.8rem;
+    font-style: italic;
+    margin: 0;
+}
+
+#content .postItems h3{
+    color: #222222;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Footer */
+#footer{
+    width: 100%;
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #333333;
+    color: #FFFFFF;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+}
